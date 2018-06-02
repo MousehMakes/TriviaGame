@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
+	<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://npmcdn.com/bootstrap@4.0.0-alpha.5/dist/js/bootstrap.min.js"></script>
+	<title>Trivia Game</title>
+
+
+</head>
+
+<body>
+<!--Class to contain all other classes-->
+	<div class="triviaBox">
+
+		<div class="textbox">
+
+			<h1>Space Trivia!</h1>
+
+			10 Questions! Can you guess them all?
+			<br> Press the button below to start the game!
+			<br>
+			<button class="start-button">Start Quiz!</button>
+			<div id="timeDisplay"></div>
+			<div class="activeQuestion"></div>
+			<div id="guessDisplay"></div>
+
+			<div class="correctGuessDisplay">
+				<div class="correctGuessText">
+					You guessed the correct answer!
+				</div>
+			</div>
+
+			<div class="incorrectGuessDisplay">
+				<div class="incorrectGuessText">
+
+				</div>
+			</div>
+
+			<div class="outOfTimeDisplay">
+				<div class="outOfTimeText">
+					You ran out of time!
+					
+				</div>
+				<button class="reset-button">Reset Quiz!</button>
+			</div>
+
+		</div>
+	</div>
+
+</body>
+
+<script src="assets/javascript/app.js">
+
+</script>
+
+</html>
